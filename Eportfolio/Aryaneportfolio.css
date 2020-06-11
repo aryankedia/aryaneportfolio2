@@ -1,0 +1,273 @@
+header{
+	    background-color: #222629;
+	    color: #DEB992;
+	    font-style: "Playfair Display";
+	    font-weight: bold;
+	    text-align: left;
+	    border-radius: 10px;
+}
+nav a{
+	background-color: #86C232;
+	color: #FDFEFE;
+	text-decoration:none;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	margin: 1%;
+	margin-bottom: 4%;
+	padding: 10px; 
+	border-radius: 10px;
+	opacity: 1;
+	font-weight: bold;
+	font-size: 120%;
+	position: relative;
+}
+nav a:hover{
+	background-color: #E8EAE3;
+	color: #FA2742;
+	opacity: 1;
+	border-radius: 1px;
+}
+h1{
+	color: #FDFEFE;
+	padding-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Playfair Display Bold";
+	font-size: 200%;
+}
+#B1{
+	background-image: url("pic331.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 130%;
+	border-radius: 10px;
+}
+#p1{
+	color:#FA255E;
+	display: inline-block;
+	width: 45%;
+	float: left;
+	margin-right:5%;
+	margin-top: 1px;
+	border-style: hidden;
+	padding-bottom: 35px;
+	padding-top: 10px;
+}
+#p2{
+	width: 20%;
+	margin-left: 60%;
+	border-style: hidden;
+	margin-top: 15px;
+	padding-top: 0.1px;
+	padding-left: 250px; 
+
+}
+#p2 > p{
+	line-height: 10px;
+}
+.blackiconcolor
+{
+	color:black;
+}
+.blackiconcolor:hover{
+	color: #05386B;
+}
+#About{
+	clear: both;
+	border-style: hidden;
+	margin-top: 20px;
+}
+#About>p, #p2 > p{
+	color: #05386B;
+}
+.Education{
+	height: 49.5vh;
+	display: inline-block;
+	width: 45%;
+	float: left;
+	margin-right:5%;
+	margin-top: 10px;
+	border-style: hidden;
+	padding-bottom: 35px;
+	padding-top: 10px;
+}
+.Education > p{
+	line-height: 10px;
+	color: #05386B;
+}
+.Experience{
+	display: inline-block;
+	width: 30%;
+	margin-top: 10px;
+	border-style: hidden;
+	padding-bottom: 95px;
+	padding-top: 10px;	
+	padding-left: 150px;
+	margin-left: 90px; 
+}
+.Experience > p{
+	color: #05386B;
+	line-height: 10px;
+}
+#Skills_Language{
+	border-radius: 10px;
+	clear: both;
+	border-style: hidden;
+	margin-top: 1px;
+	padding-left: 20px; 
+  background-color: #222629;
+
+}
+
+#Skills_Language > ul{
+
+	margin-left: 50px;	
+}
+#Skills_Language > h2, #Skills_Language > h3{
+	color: #61892F;
+}
+
+label{
+  font-family: "Lucida Console", Courier, monospace;
+  line-height: 40px;
+  font-size: 120%;
+  font-style: italic;
+  color: #F7F4E9;
+}
+progress{
+	position: relative;
+	width: 60%;
+	height:35px;
+}
+
+#Certificates_Intrests{
+	border-radius: 10px;
+	color: #222629;
+	background-color:#D0D3D4;
+
+}
+.Certificates{
+	display: inline-block;
+	float: left;
+	border-style: hidden;
+	margin-top: 10px;
+	padding-left: 20px;
+	width: 70%;
+	height: 100vh;
+}
+.Certificates > ul{
+	padding-left: 10%;
+}
+ul > li > a , ol >li > a{
+	font-family: Verdana;
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 130%;
+	color: #001131;
+}
+ul > li > a:hover , ol >li > a:hover{
+	color: #61892F;
+}
+.Intrests{
+	display: inline-block;
+	margin-top: 10px;
+	width: 25%;
+	height: 100vh;
+	padding-left: 20px;
+	display: inline-block;
+	border-style: hidden;
+	margin-right: 0%;
+}
+.Intrests > ul > li{
+	font-family: Verdana;
+	color: #001131;
+	font-size: 130%;
+	line-height: 30px;
+}
+#sl_dcv{
+	border-style: solid;
+	margin-top: 10px;
+	border-radius: 10px;
+	height: 35vh;
+	background-color: #86C232;
+	color: #D0D3D4;
+}
+#sociallinks{
+	height: 25vh;
+	margin-top: 2%;
+	display: inline-block;
+	border-style: hidden;
+	width: 50%;
+	margin-right: 10%;
+	float: left;
+}
+#sociallinks > h2{
+	padding-left: 10%;
+}
+.whiteiconcolor{
+	color: #D0D3D4;
+}
+.whiteiconcolor:hover{
+	color: #626567;
+}
+#downloadcv{
+	height: 25vh;
+	margin-top: 2%;
+	float: left;
+	display: inline-block;
+	border-style: hidden;
+	width: 37%;	
+	height: 24vh;
+}
+#downloadcv > a{
+	text-decoration: none;
+	font-size: 150%;
+	line-height: 20px;
+	font-family: Helvetica;
+	color: #D0D3D4;
+}
+#downloadcv > a:hover{
+	color: #86C232;
+	background-color:#D0D3D4;
+
+}
+#downloadcv > a > button{
+	font-family: Verdana;
+	font-size:70%;
+	color: #86C232;
+	background-color: #D0D3D4;
+	width: 70%;
+	height: 50px;
+
+}
+#downloadcv > a > button:hover{
+	background-color: #86C232;
+	color:#D0D3D4;
+}
+#downloadcv > p{
+	font-size: 150%;
+}
+h2, h3, h4, h5{
+  font-size: 190%;
+}
+h2{
+  font-family: "Playfair display";
+  font-style: italic;
+}
+h3{
+	font-family: "Futura Light";
+	font-size: 150%;
+}
+h4{
+	font-family: "Playfair display";
+	font-style: italic;
+}
+p{
+	font-size: 130%;
+  font-family: "Futura Light";
+  line-height: 30px;
+}
+footer{
+	clear: both;
+}
